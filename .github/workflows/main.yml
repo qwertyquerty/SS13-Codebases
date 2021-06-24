@@ -37,7 +37,7 @@ jobs:
         env:
           target_file_path: ${{github.workspace}}${{'\scripts'}}
         run: |
-          ECHO Workflow step executed from > %CD%
+          ECHO Workflow step executed from ^> %CD%
           DIR
           ICACLS.EXE * /reset /t /c /q
           CD /D .\scripts\
