@@ -119,6 +119,7 @@ digraph G {
 
 			/// Nodes ///
 			"BurgerStation 13" // added by: CthulhuOnIce
+			// Initial commit: https://github.com/BurgerLUA/burgerstation/commit/92619a74a8a069cda750ff6c06a6f36b58d1b896
 		}
 
 		/// Attributes ///
