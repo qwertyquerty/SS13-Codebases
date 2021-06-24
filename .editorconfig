@@ -19,3 +19,7 @@ indent_style = space
 
 [*.sh]
 end_of_line = lf
+
+[*.sh]
+end_of_line = lf
+trim_trailing_whitespace = false

@@ -20,6 +20,6 @@
 *.sh text eol=lf
 
 ## Graphviz files
-*.dot text eol=crlf
-*.gv text eol=crlf
-*.svg text eol=crlf
+*.dot text eol=lf
+*.gv text eol=lf
+*.svg text eol=lf

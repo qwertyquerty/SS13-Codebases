@@ -18,10 +18,10 @@ digraph G {
 	]
 
 	//
-	subgraph "cluster Map"
+	subgraph "cluster мap"
 	{
 		//
-		subgraph "cluster_note"
+		subgraph "cluster note"
 		{
 			/// Attributes ///
 			label    = "Notes about tree"
@@ -63,11 +63,10 @@ digraph G {
 			//note1 -> note2 [style = "invis", constraint = false, dir = left] //, taillabel = "tail", lhead=cluster_0, constraint=false]
 			//node [shape=record, height=.08, fontsize=11, width=3.5]
 			//note1 -> dummy_helper1 [style = "invis"] //, taillabel = "tail", lhead=cluster_0, constraint=false]
-
 		}
 
 		//
-		subgraph cluster_not_byond
+		subgraph "cluster not byond"
 		{
 			/// Attributes ///
 			label    = "This builds does not running on BYOND"
@@ -96,7 +95,30 @@ digraph G {
 			/// Edges ///
 			"Lili station" -> "cbay" // added by: Gesugao-san
 			"SS3D"         -> "RE:SS3D" // added by: CthulhuOnIce
+		}
 
+		//
+		subgraph "cluster not from decompiled ss13"
+		{
+			/// Attributes ///
+			label    = "This builds does not starts from decompiled SS13 (Pre Open)
+				build, but was inspired by SS13 and continues his ideas"
+			style    = "dotted"
+
+			node [
+				shape    = rectangle,
+				//fontsize = 14,
+				//width    = 3.5
+				//height   = .08
+				minlen   = 1
+			]
+			edge [
+				constraint = false
+				dir = left
+			]
+
+			/// Nodes ///
+			"BurgerStation 13" // added by: CthulhuOnIce
 		}
 
 		/// Attributes ///
@@ -170,8 +192,7 @@ digraph G {
 		"Call of Flesh"                 -> "Stalker Project" // added by: Gesugao-san
 		"CEV Eris"                      -> "InterStation-Two" // added by: CthulhuOnIce
 		"CEV Eris"                      -> "NEV Northern Light" // added by: Gesugao-san
-		"CEV Eris"                      -> "Soujurn Station"
-		"Citadel Main"                  -> "BurgerStation 13" // added by: CthulhuOnIce
+		"CEV Eris"                      -> "Soujurn Station" // added by: Gesugao-san
 		"Citadel Main"                  -> "HyperStation" // added by: CthulhuOnIce
 		"Citadel Main"                  -> "Skyrat 13" // added by: CthulhuOnIce
 		"Colonial Marines (CM)"         -> "DM;CA" // added by: CthulhuOnIce
@@ -200,7 +221,7 @@ digraph G {
 		"Lebensraum"                    -> "Civilization 13" // added by: CthulhuOnIce
 		"No Mans's Land"                -> "Lebensraum" // added by: CthulhuOnIce
 		"NTStation"                     -> "D20 Station" // added by: CthulhuOnIce
-		"OpenSS13"                      -> "BayStation (OpenSS13)"
+		"OpenSS13"                      -> "BayStation (OpenSS13)" // added by: CthulhuOnIce
 		"Paradise"                      -> "ATMTA Station" // added by: Gesugao-san
 		"Paradise"                      -> "Persistence SS13 (Old)" // added by: CthulhuOnIce
 		"Persistence SS13 (Old)"        -> "Persistence" [color = red] // added by: Gesugao-san
