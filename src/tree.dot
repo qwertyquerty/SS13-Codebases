@@ -131,7 +131,7 @@ digraph G {
 		//edge [constraint = true]
 
 		/// Nodes ///
-		"Original «SS13» (Pre-open)" [shape = invtriangle, color = darkgreen]
+		"Original «SS13» \n(Pre-open)" [shape = invtriangle, color = darkgreen]
 		"Goonstation" [shape = rectangle, color = blue] // added by: CthulhuOnIce
 		"/tg/Station (GPLv3)" [shape = rectangle, color = blue] // added by: CthulhuOnIce
 		"/tg/Station (AGPL)" [shape = rectangle, color = blue] // added by: CthulhuOnIce
@@ -232,9 +232,10 @@ digraph G {
 		"No Mans's Land"                -> "Lebensraum" // added by: CthulhuOnIce
 		"NTStation"                     -> "D20 Station" // added by: CthulhuOnIce
 		"OpenSS13 (2008/03)"            -> "BayStation (OpenSS13, pre Goon)" // added by: CthulhuOnIce, edited: Gesugao-san
-		"Original «SS13» (Pre-open)"    -> "Donut Station" // added by: Gesugao-san
-		"Original «SS13» (Pre-open)"    -> "OpenSS13 (2008/03)" [label = "[Decompilation by Hobnob]"] // added by: CthulhuOnIce, edited: Gesugao-san
-		"Original «SS13» (Pre-open)"    -> "OpenSS13 (2008/03)" [label = "[Source given to AZA by Exdav1]"] // added by: Gesugao-san
+		"OpenSS13 (2008/03)"            -> "BayStation (OpenSS13, pre Goon)" // added by: CthulhuOnIce, edited: Gesugao-san
+		"OpenSS13 (2008/03)"            -> "Donut Station" // added by: Gesugao-san
+		"Original «SS13» \n(Pre-open)"  -> "OpenSS13 (2008/03)" [label = "[Decompilation by Hobnob]"] // added by: CthulhuOnIce, edited: Gesugao-san
+		"Original «SS13» \n(Pre-open)"  -> "OpenSS13 (2008/03)" [label = "[Source given to AZA by Exdav1]"] // added by: Gesugao-san
 		"Paradise"                      -> "ATMTA Station" // added by: Gesugao-san
 		"Paradise"                      -> "Persistence SS13 (Old)" // added by: CthulhuOnIce
 		"Persistence SS13 (Old)"        -> "Persistence" [color = red] // added by: Gesugao-san
