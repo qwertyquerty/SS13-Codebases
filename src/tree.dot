@@ -90,10 +90,8 @@ digraph G {
 			/// Nodes ///
 			"Space Station 14" // added by: CthulhuOnIce
 			"UnityStation" // added by: CthulhuOnIce
-			"Lili station" // added by: Gesugao-san
 
 			/// Edges ///
-			"Lili station" -> "cbay" // added by: Gesugao-san
 			"SS3D"         -> "RE:SS3D" // added by: CthulhuOnIce
 		}
 
@@ -120,6 +118,9 @@ digraph G {
 			/// Nodes ///
 			"BurgerStation 13" // added by: CthulhuOnIce
 			// Initial commit: https://github.com/BurgerLUA/burgerstation/commit/92619a74a8a069cda750ff6c06a6f36b58d1b896
+
+			/// Edges ///
+			"Lili station" -> "cbay" // added by: Gesugao-san
 		}
 
 		/// Attributes ///
@@ -130,6 +131,7 @@ digraph G {
 		//edge [constraint = true]
 
 		/// Nodes ///
+		"SS13 (Pre Open)" [shape = invtriangle, color = darkgreen]
 		"Goonstation" [shape = rectangle, color = blue] // added by: CthulhuOnIce
 		"/tg/Station (GPLv3)" [shape = rectangle, color = blue] // added by: CthulhuOnIce
 		"/tg/Station (AGPL)" [shape = rectangle, color = blue] // added by: CthulhuOnIce
