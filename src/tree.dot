@@ -232,7 +232,6 @@ digraph G {
 		"No Mans's Land"                -> "Lebensraum" // added by: CthulhuOnIce
 		"NTStation"                     -> "D20 Station" // added by: CthulhuOnIce
 		"OpenSS13 (2008/03)"            -> "BayStation (OpenSS13, pre Goon)" // added by: CthulhuOnIce, edited: Gesugao-san
-		"OpenSS13 (2008/03)"            -> "BayStation (OpenSS13, pre Goon)" // added by: CthulhuOnIce, edited: Gesugao-san
 		"OpenSS13 (2008/03)"            -> "Donut Station" // added by: Gesugao-san
 		"Original «SS13» \n(Pre-open)"  -> "OpenSS13 (2008/03)" [label = "[Decompilation by Hobnob]"] // added by: CthulhuOnIce, edited: Gesugao-san
 		"Original «SS13» \n(Pre-open)"  -> "OpenSS13 (2008/03)" [label = "[Source given to AZA by Exdav1]"] // added by: Gesugao-san
