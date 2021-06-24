@@ -218,7 +218,7 @@ digraph G {
 		"BayStation12 (Luna)"                         -> "Lifeweb" // added by: CthulhuOnIce
 		"BayStation12 (Luna)"                         -> "Phlegethon" // added by: Gesugao-san
 		"Baystation12"                                -> "FireStation (2012)" // added by: Void.
-		"BeeStation"                                  -> "Austation" // added by: CthulhuOnIce
+		"BeeStation"                                  -> "AuStation" // added by: CthulhuOnIce
 		"BeeStation"                                  -> "NSV13" // added by: CthulhuOnIce
 		"BestRP"                                      -> "Unbound Travels" // added by: Gesugao-san
 		"Black Tyranny"                               -> "Blue Shift" // added by: Void.
