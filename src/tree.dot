@@ -172,7 +172,7 @@ digraph G {
 		"BayStation (AGPL)"             -> "Halo: Space Station Evolved" // added by: CthulhuOnIce
 		"BayStation (AGPL)"             -> "Interbay" // added by: CthulhuOnIce
 		"BayStation (AGPL)"             -> "KaiserBay" // added by: Gesugao-san
-		"BayStation (AGPL)"             -> "Nebula" // added by: Gesugao-san
+		"BayStation (AGPL)"             -> "Nebula" // added by: quardbreak
 		"BayStation (AGPL)"             -> "Persistence" // added by: CthulhuOnIce
 		"BayStation (AGPL)"             -> "Polaris" // added by: CthulhuOnIce
 		"BayStation (AGPL)"             -> "SCP-13" // added by: CthulhuOnIce
