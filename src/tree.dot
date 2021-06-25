@@ -18,10 +18,10 @@ digraph G {
 	]
 
 	//
-	subgraph "cluster мap"
+	subgraph "cluster Map"
 	{
 		//
-		subgraph "cluster note"
+		subgraph "cluster Note"
 		{
 			/// Attributes ///
 			label    = "Notes about tree"
@@ -75,10 +75,10 @@ digraph G {
 		}
 
 		//
-		subgraph "cluster not byond"
+		subgraph "cluster not BYOND"
 		{
 			/// Attributes ///
-			label    = "This builds does not running on BYOND"
+			label    = "This builds does not running on BYOND DM engine"
 			style    = "dotted"
 			//rankdir  = "LB"
 			//compound = false
@@ -105,12 +105,13 @@ digraph G {
 		}
 
 		//
-		subgraph "cluster not from decompiled ss13"
+		subgraph "cluster BYOND dedicated"
 		{
 			/// Attributes ///
-			label    = "This builds does not starts from decompiled SS13 (Pre Open)
-				build, but was inspired by SS13 and continues his ideas"
-			style    = "dotted"
+			label = "This builds is running on BYOND DM engine,
+				but does not starts from decompiled SS13 (Pre-open) build,
+				but was inspired by SS13 and continues his ideas"
+			style = "dotted"
 
 			node [
 				shape    = rectangle,
@@ -124,15 +125,19 @@ digraph G {
 				dir = left
 			]
 
-			/// Nodes ///
-			"Ashen Sky" // added by: Gesugao-san
-			"BurgerStation 13" // added by: CthulhuOnIce
-			// Initial commit: https://github.com/BurgerLUA/burgerstation/commit/92619a74a8a069cda750ff6c06a6f36b58d1b896
-			"fp" // added by: Gesugao-san
-
 			/// Edges ///
 			"BurgerStation 13" -> "Resident Evil 13" // added by: Gesugao-san
 			"Lili station"     -> "cbay" // added by: Gesugao-san
+
+			/// Nodes ///
+			"Ashen Sky" // added by: Gesugao-san
+			"BurgerStation 13" // added by: CthulhuOnIce; Initial commit: https://github.com/BurgerLUA/burgerstation/commit/92619a74a8a069cda750ff6c06a6f36b58d1b896
+			"cbay" // added by: Gesugao-san
+			"fp" // added by: Gesugao-san
+			"Lili station" // added by: Gesugao-san
+			"Redux" // added by: Orange
+			"Resident Evil 13" // added by: Gesugao-san
+
 		}
 
 		/// Attributes ///

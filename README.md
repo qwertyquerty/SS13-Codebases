@@ -31,19 +31,12 @@
 	<!--
 		Dinamic Badges
 	-->
-	<!--
-		Commented until merged to upstream... but looking for uncommented!
 	<a href="https://github.com/CthulhuOnIce/SS13-Codebases/actions/workflows/main.yml">
 		<img alt="CI status (CthulhuOnIce)"
 		src="https://github.com/CthulhuOnIce/SS13-Codebases/actions/workflows/main.yml/badge.svg"/>
-	</a>
-	-->
-	<a href="https://github.com/Gesugao-san/SS13-Codebases/actions/workflows/main.yml">
-		<img alt="CI status (Gesugao-san)"
-		src="https://github.com/Gesugao-san/SS13-Codebases/actions/workflows/main.yml/badge.svg"/>
 	</a>˙
-	<a href="https://github.com/CthulhuOnIce/SS13-Codebases/issues?q=is%3Apr+is%3Aclosed">
-		<img alt="Last Commit"
+	<a href="https://github.com/CthulhuOnIce/SS13-Codebases/commits/">
+		<img alt="Last Commit (CthulhuOnIce)"
 		src="https://img.shields.io/github/last-commit/CthulhuOnIce/SS13-Codebases"/>
 	</a>˙
 	<a href="https://community.chocolatey.org/packages/Graphviz">
@@ -63,16 +56,18 @@
 
 ## Description
 
-A [DOT graph](https://en.wikipedia.org/wiki/DOT_(graph_description_language)) of the family tree of [Space Station 13](http://www.byond.com/games/Exadv1/SpaceStation13) builds codebases.
+> A [DOT graph](https://en.wikipedia.org/wiki/DOT_(graph_description_language)) of the family tree of [Space Station 13](http://www.byond.com/games/Exadv1/SpaceStation13) builds codebases.
 
 ## Display graph tree
+
+Click on the text below to show graph.
 
 <details>
 	<summary><b>[ Show graph of builds ]</b></summary>
 	<a href="./out/tree.svg?sanitize=true">
 		<img alt="Graphviz graph" src="./out/tree.svg?sanitize=true">
 	</a>
-	<b>Compiled: June 06, 2021 - 04:33PM (ÜTC +03)</b>
+	<b>Compiled: June 06, 2021 - 07:38PM (ÜTC +03)</b>
 	<br/>
 	(or check auto-generated datetime <a href="./out/compile_datetime.txt/">here</a>)
 </details>
