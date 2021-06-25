@@ -140,7 +140,7 @@ digraph G {
 		}
 
 		//
-		//subgraph "cluster build (russian)"
+		subgraph "cluster build (russians)"
 		{
 			/// Attributes ///
 			label    = "These builds develops in russian community"
@@ -200,6 +200,7 @@ digraph G {
 			"M.E.T.R.O.13"                                -> "Resident Evil 13 (old)" // added by: Void.
 			"Navy Torch"                                  -> "Project Theta" // added by: Gesugao-san
 			"Navy Torch"                                  -> "Techno Phoenix" // added by: Gesugao-san
+			"S.T.A.L.K.E.R.13 Origin"                     -> "Ashen Sky" // added by: Gesugao-san
 			"S.T.A.L.K.E.R.13 Origin"                     -> "Call of Flesh" // added by: Gesugao-san
 			"S.T.A.L.K.E.R.13 Origin"                     -> "S.T.A.L.K.E.R. 2 " // added by: Void.
 			"Second Escalation by Madmannobrain"          -> "Metrobuild" // added by: Void.
@@ -212,11 +213,10 @@ digraph G {
 			"Yellow Station"                              -> "Yellow SCP13" // added by: Void.
 			"Yellow Station"                              -> "Yellow STALKER" // added by: Void.
 			"Yellow Station"                              -> "Yellow Theta" // added by: Void.
-			//"S.T.A.L.K.E.R.13 Origin"                     -> "Ashen Sky" // added by: Gesugao-san
 		}
 
 		//
-		//subgraph "cluster build (english)"
+		subgraph "cluster build (englishs)"
 		{
 			/// Attributes ///
 			label    = "These builds develops in russian community"
