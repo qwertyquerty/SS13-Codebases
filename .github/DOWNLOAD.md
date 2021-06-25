@@ -1,7 +1,13 @@
 
 # DOWNLOADING
 
+[Back](../README.md)
+
+> Guide to contributing to the [CthulhuOnIce/SS13-Codebases](https://github.com/CthulhuOnIce/SS13-Codebases) network.
+
+### Table of content
 - [DOWNLOADING](#downloading)
+		- [Table of content](#table-of-content)
 	- [Browser](#browser)
 	- [git bash](#git-bash)
 
@@ -24,3 +30,5 @@ $ git clone https://github.com/CthulhuOnIce/SS13-Codebases
 ![Browser download](/.github/static/mintty_download.png)
 
 For more info check [official Github guide](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories), please.
+
+---

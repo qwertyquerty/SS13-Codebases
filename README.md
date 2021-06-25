@@ -74,8 +74,8 @@ Click on the text below to show graph.
 
 ## For contributors
 
- 1. [Contributing](.github/CONTRIBUTING.md)
- 1. [Download](.github/DOWNLOAD.md)
- 1. [Building](.github/BUILDING.md)
+ 1. [Contributing](./.github/CONTRIBUTING.md)
+ 1. [Download](./.github/DOWNLOAD.md)
+ 1. [Building](./.github/BUILDING.md)
 
 ---
