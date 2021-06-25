@@ -72,7 +72,7 @@ A [DOT graph](https://en.wikipedia.org/wiki/DOT_(graph_description_language)) of
 	<a href="./out/tree.svg?sanitize=true">
 		<img alt="Graphviz graph" src="./out/tree.svg?sanitize=true">
 	</a>
-	<b>Compiled: June 06, 2021 - 05:34PM (ÜTC +03)</b>
+	<b>Compiled: June 06, 2021 - 03:43PM (ÜTC +03)</b>
 	<br/>
 	(or check auto-generated datetime <a href="./out/compile_datetime.txt/">here</a>)
 </details>
@@ -84,3 +84,4 @@ A [DOT graph](https://en.wikipedia.org/wiki/DOT_(graph_description_language)) of
  1. [Building](.github/BUILDING.md)
 
 ---
+Fri, Jun 25, 2021  3:44:18 PM

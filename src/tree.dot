@@ -231,6 +231,7 @@ digraph G {
 		"Call of Flesh"                               -> "M.E.T.R.O.13" // added by: Void.
 		"Call of Flesh"                               -> "S.T.A.L.K.E.R.13:REMASTERED" // added by: Void.
 		"Call of Flesh"                               -> "Stalker Project" // added by: Gesugao-san
+		"CEV Eris"                                    -> "4udobay" // added by: TapKo4eB
 		"CEV Eris"                                    -> "InterStation-Two" // added by: CthulhuOnIce
 		"CEV Eris"                                    -> "NEV Northern Light" // added by: Gesugao-san
 		"CEV Eris"                                    -> "Soujurn Station" // added by: Gesugao-san
