@@ -150,11 +150,12 @@ digraph G {
 			//rank     = same
 
 			node [
-				shape    = rectangle,
+				//shape    = rectangle,
 				//fontsize = 14,
 				//width    = 3.5
 				//height   = .08
-				minlen   = 1
+				//minlen   = 1
+				color    = "#B22222" //firebrick
 			]
 			edge [
 				constraint = true
@@ -162,23 +163,23 @@ digraph G {
 			]
 
 			/// Nodes ///
-			"Animus Station \n(2010)" [shape = invtriangle, color = darkgreen] // added by: Gesugao-san
+			"Animus Station" [shape = invtriangle, color = darkgreen] // added by: Gesugao-san
 
 			/// Edges ///
 			"/tg/Station (GPLv3)"                         -> "whiTGreen" // added by: Gesugao-san
 			"/vg/Station"                                 -> "REFORGER '88" // added by: Gesugao-san
-			"/vg/Station"                                 -> "United Kingdom of Soviet Station 13\n(2015)" // added by: Void.
-			"Animus Station \n(2010)"                     -> "Black Tyranny" [color = "#a349a4"] // added by: Void.
-			"Animus Station \n(2010)"                     -> "Chaotic Onyx" [color = "#a349a4"] // added by: Void.
-			"Animus Station \n(2010)"                     -> "Lawful Green" [color = "#a349a4"] // added by: Void.
-			"Animus Station \n(2010)"                     -> "White Dream" [color = "#a349a4"] // added by: Void.
-			"Animus Station \n(2010)"                     -> "Yellow Station (old)" [color = "#a349a4"] // added by: Void.
+			"/vg/Station"                                 -> "United Kingdom of Soviet Station 13" // added by: Void.
+			"Animus Station"                              -> "Black Tyranny" [color = "#a349a4"] // added by: Void.
+			"Animus Station"                              -> "Chaotic Onyx" [color = "#a349a4"] // added by: Void.
+			"Animus Station"                              -> "Lawful Green" [color = "#a349a4"] // added by: Void.
+			"Animus Station"                              -> "White Dream" [color = "#a349a4"] // added by: Void.
+			"Animus Station"                              -> "Yellow Station (old)" [color = "#a349a4"] // added by: Void.
 			"BayStation12 (AGPL)"                         -> "Second Escalation by Madmannobrain" // added by: Void.
 			"BayStation12 (GPL)"                          -> "Build by Orange and Matt" // added by: Void.
 			"BayStation12 (GPL)"                          -> "Escalation by Madmannobrain" // added by: Gesugao-san
 			"BayStation12 (Luna)"                         -> "Lifeweb" // added by: CthulhuOnIce
 			"BayStation12 (Luna)"                         -> "Phlegethon" // added by: Gesugao-san
-			"Baystation12"                                -> "FireStation (2012)" // added by: Void.
+			"Baystation12"                                -> "FireStation" [label = "2012"] // added by: Void.
 			"Black Tyranny"                               -> "Blue Shift" // added by: Void.
 			"Black Tyranny"                               -> "Navy Torch" // added by: Void.
 			"Blue Shift: Reborn"                          -> "Project Theta" // added by: Void.
@@ -192,8 +193,8 @@ digraph G {
 			"Chaotic Onyx"                                -> "Lawful Onyx" // added by: Void.
 			"Escalation by Madmannobrain"                 -> "Escalation by MioMio" // added by: Void.
 			"Escalation by Madmannobrain"                 -> "Second Escalation by Madmannobrain" [color = red] // added by: Void.
-			"FireStation (2012)"                          -> "United Kingdom of Soviet Station 13\n(2015)" // added by: Void.
-			"Goonstation"                                 -> "Animus Station \n(2010)" // proudly added by: Void. and Gesugao-san
+			"FireStation"                                 -> "United Kingdom of Soviet Station 13" [label = "2015"] // added by: Void.
+			"Goonstation"                                 -> "Animus Station" [label = "2010"] // proudly added by: Void. and Gesugao-san
 			"Interbay 1.0"                                -> "Interbay 2.0" // added by: Gesugao-san
 			"Interbay"                                    -> "Cadia Station ru" // added by: Gesugao-san
 			"Interbay"                                    -> "Samosbor 13" // added by: Gesugao-san
@@ -226,11 +227,12 @@ digraph G {
 			//rank     = same
 
 			node [
-				shape    = rectangle,
+				//shape    = rectangle,
 				//fontsize = 14,
 				//width    = 3.5
 				//height   = .08
-				minlen   = 1
+				//minlen   = 1
+				color    = "#00008B" //DarkBlue
 			]
 			edge [
 				constraint = true
@@ -238,16 +240,15 @@ digraph G {
 			]
 
 			/// Nodes ///
-			"/tg/Station (AGPL)" [shape = rectangle, color = blue] // added by: CthulhuOnIce
-			"/tg/Station (GPLv3)" [shape = rectangle, color = blue] // added by: CthulhuOnIce
-			"BayStation12 (AGPL)" [shape = rectangle, color = blue] // added by: CthulhuOnIce
-			"BayStation12 (GPL)" [shape = rectangle, color = blue] // added by: CthulhuOnIce
-			"Goonstation" [shape = rectangle, color = blue] // added by: CthulhuOnIce
+			"/tg/Station (AGPL)" [shape = rectangle, color = darkgreen] // added by: CthulhuOnIce
+			"/tg/Station (GPLv3)" [shape = rectangle, color = darkgreen] // added by: CthulhuOnIce
+			"BayStation12 (AGPL)" [shape = rectangle, color = darkgreen] // added by: CthulhuOnIce
+			"BayStation12 (GPL)" [shape = rectangle, color = darkgreen] // added by: CthulhuOnIce
+			"Goonstation" [shape = rectangle, color = darkgreen] // added by: CthulhuOnIce
 			"Original «SS13» \n(Pre-open)" [shape = invtriangle, color = darkgreen] // added by: CthulhuOnIce
 			"Revision 4407 (r4407)" [shape = rectangle, color = darkgreen] // added by: CthulhuOnIce
 
 			/// Edges ///
-			"AEIOU"                                       -> "Eclipse Station" [color = red] // added by: CthulhuOnIce
 			"/tg/stalker"                                 -> "S.T.A.L.K.E.R.13 Origin" // added by: Gesugao-san
 			"/tg/Station (AGPL)"                          -> "/tg/stalker" // added by: Gesugao-san
 			"/tg/Station (AGPL)"                          -> "Apollo Station" // added by: CthulhuOnIce
@@ -275,6 +276,7 @@ digraph G {
 			"/tg/Station (GPLv3)"                         -> "Urist McStation v1" // added by: Gesugao-san
 			"/tg/Station (GPLv3)"                         -> "YogStation (Old)" // added by: CthulhuOnIce
 			"/vg/Station"                                 -> "Atlas Station v2" // added by: Gesugao-san
+			"AEIOU"                                       -> "Eclipse Station" [color = red] // added by: CthulhuOnIce
 			"Aurora (Old)"                                -> "Aurora Station" [color = red] // added by: CthulhuOnIce
 			"Ava's Battlegrounds"                         -> "No Mans's Land" // added by: CthulhuOnIce
 			"BayStation12 (AGPL)"                         -> "Aurora Station" // added by: CthulhuOnIce
@@ -355,7 +357,7 @@ digraph G {
 			"Star Trek 13"                                -> "Deep Space 13" [color = red] // added by: CthulhuOnIce
 			"TerraGov Marine Corps (TGMC)"                -> "Winter Contingency" // added by: Gesugao-san
 			"Unbound Travels"                             -> "Aphelion Project" // added by: Gesugao-san
-			"United Kingdom of Soviet Station 13\n(2015)" -> "Digital Marines: Colonial Aliens (DM;CA)" // added by: Void.
+			"United Kingdom of Soviet Station 13" -> "Digital Marines: Colonial Aliens (DM;CA)" // added by: Void.
 			"V.O.R.E. Station"                            -> "AEIOU" // added by: CthulhuOnIce
 			"V.O.R.E. Station"                            -> "ARFS Dallus" // added by: Gesugao-san
 			"V.O.R.E. Station"                            -> "Citadel RP" // added by: CthulhuOnIce
@@ -365,7 +367,6 @@ digraph G {
 			"YogStation (Old)"                            -> "YogStation" [color = red] // added by: CthulhuOnIce
 			"YogStation"                                  -> "FTL13 (Old)" // added by: CthulhuOnIce, edited: quardbreak
 			"YogStation"                                  -> "Fulpstation" // added by: CthulhuOnIce
-
 		}
 
 		/// Attributes ///
