@@ -254,6 +254,7 @@ digraph G {
 			"/tg/Station (AGPL)"                          -> "Apollo Station" // added by: CthulhuOnIce
 			"/tg/Station (AGPL)"                          -> "BeeStation" // added by: CthulhuOnIce
 			"/tg/Station (AGPL)"                          -> "Citadel Main" // added by: Zandario
+			"/tg/Station (AGPL)"                          -> "duda37master" // added by: Gesugao-san
 			"/tg/Station (AGPL)"                          -> "Fallout 13" // added by: CthulhuOnIce
 			"/tg/Station (AGPL)"                          -> "FTL13" // added by: CthulhuOnIce
 			"/tg/Station (AGPL)"                          -> "HippieStation" // added by: CthulhuOnIce
@@ -272,7 +273,10 @@ digraph G {
 			"/tg/Station (GPLv3)"                         -> "FacePunch Station" // added by: CthulhuOnIce
 			"/tg/Station (GPLv3)"                         -> "FreeTG Station" // added by: Gesugao-san
 			"/tg/Station (GPLv3)"                         -> "HippieStation (Old)" // added by: CthulhuOnIce
+			"/tg/Station (GPLv3)"                         -> "HotStation 13" // added by: Gesugao-san
+			"/tg/Station (GPLv3)"                         -> "Novux Station" // added by: Gesugao-san
 			"/tg/Station (GPLv3)"                         -> "NTStation" // added by: CthulhuOnIce
+			"/tg/Station (GPLv3)"                         -> "Pony(/Tabun/Rainbow) Station 13" // added by: Gesugao-san
 			"/tg/Station (GPLv3)"                         -> "Traitor Death Match" // added by: CthulhuOnIce
 			"/tg/Station (GPLv3)"                         -> "Urist McStation v1" // added by: Gesugao-san
 			"/tg/Station (GPLv3)"                         -> "YogStation (Old)" // added by: CthulhuOnIce
