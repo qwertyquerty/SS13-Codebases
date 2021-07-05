@@ -1,17 +1,20 @@
 
-# STATICTICS
+# TODO
 
 [Back](../README.md)
 
-> Some useless statistics about CI across [CthulhuOnIce](https://github.com/CthulhuOnIce/) himself (herself).
+> ToDo list for making history of Space Station 13!
 
 ### Table of content
-- [STATICTICS](#statictics)
+
+- [TODO](#todo)
 		- [Table of content](#table-of-content)
 	- [ToDo table](#todo-table)
 
 ## ToDo table
-- [ ] Example entry (not marked as done);
+
+- [ ] ~~Example entry (not marked as done)~~;
 - [x] ~~Example entry (marked as done)~~;
-- [ ] Add 187 builds from https://github.com/SS13-Source-Archive?tab=repositories (mirror available at [Wayback Machine](https://web.archive.org/)).
-- [ ] Add 173 builds from https://wiki.station13.ru/Build_archive_small (mirror available at [Wayback Machine](https://web.archive.org/)).
+- [ ] Add 187 builds from [SS13 Source Archive](https://github.com/SS13-Source-Archive?tab=repositories) (mirror available at [Wayback Machine](https://web.archive.org/)) (International);
+- [ ] Add 173 builds from [Small build archive](https://wiki.station13.ru/Build_archive_small) (mirror available at [Wayback Machine](https://web.archive.org/)) (Russian);
+- [ ] Add old builds from [Server List](https://vk.com/topic-34273349_28642933) (Russian).
