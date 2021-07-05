@@ -47,34 +47,46 @@
 
 ---
 
+> A [DOT-graph](https://en.wikipedia.org/wiki/DOT_(graph_description_language)) of the family tree of [Space Station 13](http://www.byond.com/games/Exadv1/SpaceStation13) builds codebases.
+
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
-- [Description](#description)
 - [Display graph tree](#display-graph-tree)
+	- [Local](#local)
+	- [Online (origin repo)](#online-origin-repo)
 - [For contributors](#for-contributors)
-
-## Description
-
-> A [DOT graph](https://en.wikipedia.org/wiki/DOT_(graph_description_language)) of the family tree of [Space Station 13](http://www.byond.com/games/Exadv1/SpaceStation13) builds codebases.
 
 ## Display graph tree
 
 Click on the text below to show graph.
 
+### Local
+
 <details>
 	<summary><b>[ Show graph of builds ]</b></summary>
 	<a href="./out/tree.svg?sanitize=true">
-		<img alt="Graphviz graph" src="./out/tree.svg?sanitize=true">
+		<img alt="Graphviz graph (local)" src="./out/tree.svg?sanitize=true">
 	</a>
 	<b>Compiled: July 07, 2021 - 02:28PM (ÜTC +03)</b>
 	<br/>
 	(or check auto-generated datetime <a href="./out/compile_datetime.txt/">here</a>)
 </details>
 
+### Online (origin repo)
+
+<details>
+	<summary><b>[ Show graph of builds ]</b></summary>
+	<a href="https://github.com/CthulhuOnIce/SS13-Codebases/blob/master/out/tree.svg?sanitize=true">
+		<img alt="Graphviz graph (online)" src="./out/tree.svg?sanitize=true">
+	</a>
+	<b>Check auto-generated datetime <a href="https://github.com/CthulhuOnIce/SS13-Codebases/blob/master/out/compile_datetime.txt?sanitize=true">here</a>
+</details>
+
 ## For contributors
 
  1. [Contributing](./.github/CONTRIBUTING.md)
+ 1. [ToDo list](./.github/TODO.md)
  1. [Download](./.github/DOWNLOAD.md)
  1. [Building](./.github/BUILDING.md)
 

@@ -13,7 +13,7 @@
 ## CI Statuses
 
 <table>
-<caption>CI statuses across repositories</caption>
+<caption>CI statuses across repository of <a href="https://github.com/CthulhuOnIce/SS13-Codebases/">CthulhuOnIce/SS13-Codebases</a> network</caption>
 	<tr>
 		<th>Repo name</th>
 		<th>Commit time</th>
@@ -111,6 +111,25 @@
 			<a href="https://github.com/BlueNexus/SS13-Codebases/actions/workflows/main.yml">
 				<img alt="CI status (BlueNexus)"
 				src="https://github.com/BlueNexus/SS13-Codebases/actions/workflows/main.yml/badge.svg"/>
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<a href="https://github.com/btwotwo/SS13-Codebases/">
+				btwotwo
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/btwotwo/SS13-Codebases/commits/">
+				<img alt="Last Commit (btwotwo)"
+				src="https://img.shields.io/github/last-commit/btwotwo/SS13-Codebases"/>
+			</a>
+		</td>
+		<td>
+			<a href="https://github.com/btwotwo/SS13-Codebases/actions/workflows/main.yml">
+				<img alt="CI status (btwotwo)"
+				src="https://github.com/btwotwo/SS13-Codebases/actions/workflows/main.yml/badge.svg"/>
 			</a>
 		</td>
 	</tr>
