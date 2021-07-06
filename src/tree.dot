@@ -272,13 +272,13 @@ digraph G {
 			"/tg/Station (AGPL)"                          -> "Apollo Station" // added by: CthulhuOnIce
 			"/tg/Station (AGPL)"                          -> "BeeStation" // added by: CthulhuOnIce
 			"/tg/Station (AGPL)"                          -> "Citadel Main" // added by: Zandario
-			"/tg/Station (AGPL)"                          -> "duda37master" // added by: Gesugao-san
 			"/tg/Station (AGPL)"                          -> "Fallout 13" // added by: CthulhuOnIce
 			"/tg/Station (AGPL)"                          -> "FTL13" // added by: CthulhuOnIce
 			"/tg/Station (AGPL)"                          -> "HippieStation" // added by: CthulhuOnIce
 			"/tg/Station (AGPL)"                          -> "Horizon Station 13" // added by: Gesugao-san
 			"/tg/Station (AGPL)"                          -> "Mojave Sun" // added by: Zandario
 			"/tg/Station (AGPL)"                          -> "OracleStation" // added by: CthulhuOnIce
+			"/tg/Station (AGPL)"                          -> "PSK Duda-37" // added by: Gesugao-san
 			"/tg/Station (AGPL)"                          -> "Star Trek 13" // added by: CthulhuOnIce
 			"/tg/Station (AGPL)"                          -> "Sunset Station" // added by: CthulhuOnIce
 			"/tg/Station (AGPL)"                          -> "Toolbox Station" // added by: CthulhuOnIce
