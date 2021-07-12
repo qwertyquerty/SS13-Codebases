@@ -85,11 +85,12 @@ digraph G {
 			//rank     = same
 
 			node [
-				shape    = rectangle,
+				//shape    = rectangle,
 				//fontsize = 14,
 				//width    = 3.5
 				//height   = .08
-				minlen   = 1
+				minlen   = 1,
+				color    = "#00008B" //DarkBlue
 			]
 			edge [
 				constraint = false
@@ -105,7 +106,7 @@ digraph G {
 		}
 
 		//
-		subgraph "cluster BYOND dedicated"
+		subgraph "cluster BYOND dedicated hub"
 		{
 			/// Attributes ///
 			label = "These builds is running on BYOND DM engine,
@@ -114,11 +115,12 @@ digraph G {
 			style = "dotted"
 
 			node [
-				shape    = rectangle,
+				//shape    = rectangle,
 				//fontsize = 14,
 				//width    = 3.5
 				//height   = .08
-				minlen   = 1
+				minlen   = 1,
+				color    = "#B22222" //firebrick
 			]
 			edge [
 				constraint = false
@@ -131,7 +133,7 @@ digraph G {
 
 			/// Nodes ///
 			"Ashen Sky" // added by: Gesugao-san
-			"BurgerStation 13" // added by: CthulhuOnIce; Initial commit: https://github.com/BurgerLUA/burgerstation/commit/92619a74a8a069cda750ff6c06a6f36b58d1b896
+			"BurgerStation 13" [color = "#00008B"] // added by: CthulhuOnIce; Initial commit: https://github.com/BurgerLUA/burgerstation/commit/92619a74a8a069cda750ff6c06a6f36b58d1b896
 			"cbay" // added by: Gesugao-san
 			"fp" // added by: Gesugao-san
 			"Lili station" // added by: Gesugao-san
@@ -206,9 +208,9 @@ digraph G {
 			"Interbay 2.0"                                -> "Interpost: Redux" // added by: Gesugao-san
 			"Interbay"                                    -> "Cadia Station ru" // added by: Gesugao-san
 			"Interbay"                                    -> "Interpost Hague" // added by: CthulhuOnIce
-			"Interbay"                                    -> "Samosbor 13" // added by: Gesugao-san
 			"InterHippie"                                 -> "Interbay 1.0" // added by: Gesugao-san
 			"Interpost Hague"                             -> "InterHippie" // added by: Gesugao-san
+			"KaiserBay"                                   -> "Samosbor 13" // added by: Gesugao-san
 			"M.E.T.R.O.13"                                -> "Resident Evil 13 (old)" // added by: Void.
 			"Navy Torch"                                  -> "Project Theta" // added by: Gesugao-san
 			"Navy Torch"                                  -> "Techno Phoenix" // added by: Gesugao-san
