@@ -17,7 +17,13 @@
 	<tr>
 		<th>Repo name</th>
 		<th>Commit time</th>
-		<th>CI status</th>
+		<td style="text-align: center"><b>CI status</b> <br>
+			Avaliable only after <a href="https://github.com/CthulhuOnIce/SS13-Codebases/pull/13">
+				PR №13 <br>
+				<img alt="GitHub commit merge status" src="https://img.shields.io/github/commit-status/CthulhuOnIce/SS13-Codebases/master/2d75e2124e15c9c06da40664937c3a0e5601ff8a">
+				<img alt="Relative date" src="https://img.shields.io/date/1624406400">
+			</a>
+		</td>
 	</tr>
 	<tr>
 		<td>
